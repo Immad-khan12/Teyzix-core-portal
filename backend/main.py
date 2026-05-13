@@ -19,6 +19,7 @@ app.add_middleware(
 
 # Routes
 app.include_router(internship_routes.router)
+
 app.include_router(application_routes.router)
 app.include_router(admin_routes.router)
 
